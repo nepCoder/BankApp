@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32314.265
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.Presentation", "BankApp.Presentation\BankApp.Presentation.csproj", "{F3953D05-0A38-4DA4-9BDD-A3804E4E9EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.BusinessLogic", "BankApp.BusinessLogic\BankApp.BusinessLogic.csproj", "{177D2FD2-9813-4074-B404-372DCE55C3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.DataAccess", "BankApp.DataAccess\BankApp.DataAccess.csproj", "{B6BC6F09-8E9A-46A7-ADA6-A76C3DE4EC2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Entities", "BankApp.Entities\BankApp.Entities.csproj", "{789567F4-E412-4F61-B898-2EC0BDDDAC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Exceptions", "BankApp.Exceptions\BankApp.Exceptions.csproj", "{3D6E55DF-3E33-4945-9C16-BBD529D0AD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Configurations", "BankApp.Configurations\BankApp.Configurations.csproj", "{5168E3AB-6AB0-4485-B643-EB5A4EE44843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3953D05-0A38-4DA4-9BDD-A3804E4E9EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3953D05-0A38-4DA4-9BDD-A3804E4E9EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3953D05-0A38-4DA4-9BDD-A3804E4E9EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3953D05-0A38-4DA4-9BDD-A3804E4E9EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177D2FD2-9813-4074-B404-372DCE55C3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177D2FD2-9813-4074-B404-372DCE55C3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177D2FD2-9813-4074-B404-372DCE55C3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177D2FD2-9813-4074-B404-372DCE55C3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BC6F09-8E9A-46A7-ADA6-A76C3DE4EC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BC6F09-8E9A-46A7-ADA6-A76C3DE4EC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BC6F09-8E9A-46A7-ADA6-A76C3DE4EC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BC6F09-8E9A-46A7-ADA6-A76C3DE4EC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789567F4-E412-4F61-B898-2EC0BDDDAC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789567F4-E412-4F61-B898-2EC0BDDDAC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789567F4-E412-4F61-B898-2EC0BDDDAC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789567F4-E412-4F61-B898-2EC0BDDDAC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6E55DF-3E33-4945-9C16-BBD529D0AD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6E55DF-3E33-4945-9C16-BBD529D0AD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6E55DF-3E33-4945-9C16-BBD529D0AD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6E55DF-3E33-4945-9C16-BBD529D0AD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5168E3AB-6AB0-4485-B643-EB5A4EE44843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5168E3AB-6AB0-4485-B643-EB5A4EE44843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5168E3AB-6AB0-4485-B643-EB5A4EE44843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5168E3AB-6AB0-4485-B643-EB5A4EE44843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C9C952D-D05E-409B-BA72-363F77A2FAF5}
+	EndGlobalSection
+EndGlobal

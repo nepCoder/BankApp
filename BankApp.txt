@@ -1,0 +1,43 @@
+::::::::::::::::::::::::::::::GETTING STARTED::::::::::::::::::::::::::::::
+**********Creating Login Form**********
+
+**********Creating Main Menu**********
+
+**********Creating Customers and Accounts**********
+
+
+::::::::::::::::::::::::::::::ADDING FUNCTIONALITY::::::::::::::::::::::::::::::
+**********Setting-up Layers**********
+Layer means the Class Library
+
+Presentation Layer [User inputs/outputs, menus]
+	References:
+		All Except Data Access Layer
+
+Business Logic Layer [Logics, manipulations, calculations, validations]
+	References: 
+		All Except Presentation Layer
+
+Data Access Layer [interaction with data source]
+	References: 
+		Entities, Exception
+
+Entities Layer [Model classes]
+	References: 
+		exceptions
+
+Exception Layer
+	No References: 
+
+
+Configuration Layer
+	No References:
+
+**********Creating Customer Entity**********
+**********Adding Regions and XML Comments**********
+**********Adding Validations to Entity Classe**********
+**********Creating Customer DAL**********
+**********Adding Exception Handling in Customer DAL**********
+**********Adding Configuration Setting**********
+**********Creating Customer BLL**********
+**********Creating Customer PL**********
