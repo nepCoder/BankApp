@@ -3,7 +3,7 @@
 
 **********Creating Main Menu**********
 
-**********Creating Customers and Accounts**********
+********** Creating Customers and Accounts**********
 
 
 ::::::::::::::::::::::::::::::ADDING FUNCTIONALITY::::::::::::::::::::::::::::::
@@ -34,7 +34,29 @@ Configuration Layer
 	No References:
 
 **********Creating Customer Entity**********
+#Create Classes for Entities
+Customer Entity Class
+Create Interfaces for each entity.
+
+	-> Inside BankApp.Entities, rename class1.cs to ICustomer.cs
+	-> Place the Interface inside the folder named Contracts
+
+------------ In ICustomer.cs Interface ----------
+
+ 
+Qn. What is Interface? 
+Qn. What is GUID?
+
+
+
 **********Adding Regions and XML Comments**********
+#Region RegionName
+#endregion
+
+///<summary>
+/// Summary Statement Here
+///<summary>
+
 **********Adding Validations to Entity Classe**********
 **********Creating Customer DAL**********
 **********Adding Exception Handling in Customer DAL**********
